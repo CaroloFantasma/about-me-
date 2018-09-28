@@ -1,6 +1,7 @@
 body {
   color: #fafafa;
   font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  
+  background-color: rgb(206, 206, 228);
 }
 
 #web {
@@ -15,7 +16,6 @@ body {
   position: absolute; 
   left: 342px; 
   top: 342px; 
-  border: 2px #fafafa solid;
   border-radius: 50%;
 }
 
@@ -82,12 +82,13 @@ body {
 }
 
 .blurb {
-  margin: 2.5em;
+  margin: 2em;
   color: rgba(255,255,255,0);
   -ms-transform: scale(.9); 
   -webkit-transform: scale(.9); 
   transform: scale(.9);
   visibility: hidden;
+  font-size: 19px;
 }
 
 .sphere:hover .blurb {
